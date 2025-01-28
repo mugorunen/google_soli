@@ -4,6 +4,8 @@
 
 Google Soli is a solid-state millimeter-wave radar developed by Google for dynamic gesture recognition applications. The Soli chip is compact and power-efficient, designed to prioritize temporal resolution over spatial resolution. This allows it to detect subtle, non-rigid motions with high precision.
 
+![Soli Radar](images/soli.png)
+
 ### How It Works
 
 Soli utilizes antennas that function as both transmitters and receivers. A signal is emitted from the transmitter antenna and reflected back to the receiver antenna. The raw signals received are then processed into **Range-Doppler images**, which are used for gesture classification. In these images:
@@ -11,6 +13,8 @@ Soli utilizes antennas that function as both transmitters and receivers. A signa
 - **Pixel intensity** represents the power of the received signals.
 - The **horizontal axis** corresponds to the velocity of the movement.
 - The **vertical axis** represents the distance of the action from the chip.
+
+![Soli Movement](images/soli_movement.png)
 
 ---
 
@@ -24,6 +28,8 @@ The Deep-Soli dataset contains gesture data collected from 10 subjects performin
   `LabelNumber_SubjectNumber_SessionNumber.h5`.
 - Each file contains **4 channels**, corresponding to data recorded simultaneously from 4 receiver antennas.
 - Each channel consists of **1024 pixels**, representing **32 × 32 Range-Doppler images**.
+
+[Gesture Classes](images/gesture_classes.png)
 
 ---
 
