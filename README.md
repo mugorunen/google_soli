@@ -29,7 +29,7 @@ The Deep-Soli dataset contains gesture data collected from 10 subjects performin
 - Each file contains **4 channels**, corresponding to data recorded simultaneously from 4 receiver antennas.
 - Each channel consists of **1024 pixels**, representing **32 × 32 Range-Doppler images**.
 
-[Gesture Classes](images/gesture_classes.png)
+![Gesture Classes](images/gesture_classes.png)
 
 ---
 
